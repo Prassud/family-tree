@@ -1,0 +1,84 @@
+{
+  "relationshipMap": {
+    "Paternal-Uncle": [
+      {
+        "relationType": "PARENT",
+        "gender": "MALE"
+      },
+      {
+        "relationType": "SIBLING",
+        "gender": "MALE"
+      }
+    ],
+    "Maternal-Uncle": [
+      {
+        "relationType": "PARENT",
+        "gender": "FEMALE"
+      },
+      {
+        "relationType": "SIBLING",
+        "gender": "MALE"
+      }
+    ],
+    "Paternal-Aunt": [
+      {
+        "relationType": "PARENT",
+        "gender": "MALE"
+      },
+      {
+        "relationType": "SIBLING",
+        "gender": "FEMALE"
+      }
+    ],
+    "Maternal-Aunt": [
+      {
+        "relationType": "PARENT",
+        "gender": "FEMALE"
+      },
+      {
+        "relationType": "SIBLING",
+        "gender": "FEMALE"
+      }
+    ],
+    "Siblings": [
+      {
+        "relationType": "SIBLING"
+      }
+    ],
+    "Son": [
+      {
+        "relationType": "CHILDREN",
+        "gender": "MALE"
+      }
+    ],
+    "Daughter": [
+      {
+        "relationType": "CHILDREN",
+        "gender": "FEMALE"
+      }
+    ]
+  },
+  "multiRelations": {
+    "Sister-In-Law": [
+      [
+        {
+          "relationType": "SIBLING",
+          "gender": "MALE"
+        },
+        {
+          "relationType": "SPOUSE",
+          "gender": "FEMALE"
+        }
+      ],
+      [
+        {
+          "relationType": "SPOUSE"
+        },
+        {
+          "relationType": "SIBLING",
+          "gender": "FEMALE"
+        }
+      ]
+    ]
+  }
+}

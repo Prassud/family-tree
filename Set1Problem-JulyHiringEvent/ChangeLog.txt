@@ -1,0 +1,4 @@
+1.) Corrected shah family relations json, to build properly for some IO cases
+2.) Returns None when no relations found for a family member
+3.) Created Constants file to have common strings that could be sent in result message
+4.) Supports name with escaped spaces

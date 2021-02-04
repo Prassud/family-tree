@@ -1,0 +1,7 @@
+GET_RELATIONSHIP Atya Sister-In-Law
+ADD_CHILD Pjali Srutak Male
+GET_RELATIONSHIP Pjali Son
+ADD_CHILD Asva Vani Female
+GET_RELATIONSHIP Vasa Siblings
+GET_RELATIONSHIP Atya Sister-In-Law
+GET_RELATIONSHIP King\ Shah Son

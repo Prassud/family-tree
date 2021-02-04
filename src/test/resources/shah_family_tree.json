@@ -1,0 +1,481 @@
+{
+  "members": {
+    "King Shah": {
+      "name": "King Shah",
+      "gender": "MALE",
+      "relations": {
+        "SPOUSE": [
+          "Queen Ange"
+        ],
+        "CHILDREN": [
+          "Chit",
+          "Ish",
+          "Vich",
+          "Aras",
+          "Satya"
+        ]
+      }
+    },
+    "Queen Ange": {
+      "name": "Queen Ange",
+      "gender": "FEMALE",
+      "relations": {
+        "SPOUSE": [
+          "King Shah"
+        ],
+        "CHILDREN": [
+          "Chit",
+          "Ish",
+          "Vich",
+          "Aras",
+          "Satya"
+        ]
+      }
+    },
+    "Chit": {
+      "name": "Chit",
+      "gender": "MALE",
+      "relations": {
+        "PARENT": [
+          "King Shah",
+          "Queen Ange"
+        ],
+        "SIBLING": [
+          "Ish",
+          "Vich",
+          "Aras",
+          "Satya"
+        ],
+        "SPOUSE": [
+          "Amba"
+        ],
+        "CHILDREN": [
+          "Dritha",
+          "Jaya",
+          "Tritha",
+          "Vritha"
+        ]
+      }
+    },
+    "Amba": {
+      "name": "Amba",
+      "gender": "FEMALE",
+      "relations": {
+        "SPOUSE": [
+          "Chit"
+        ],
+        "CHILDREN": [
+          "Dritha",
+          "Jaya",
+          "Tritha",
+          "Vritha"
+        ]
+      }
+    },
+    "Ish": {
+      "name": "Ish",
+      "gender": "MALE",
+      "relations": {
+        "PARENT": [
+          "King Shah",
+          "Queen Ange"
+        ],
+        "SIBLING": [
+          "Chit",
+          "Vich",
+          "Aras",
+          "Satya"
+        ]
+      }
+    },
+    "Vich": {
+      "name": "Vich",
+      "gender": "MALE",
+      "relations": {
+        "PARENT": [
+          "King Shah",
+          "Queen Ange"
+        ],
+        "SIBLING": [
+          "Chit",
+          "Ish",
+          "Aras",
+          "Satya"
+        ],
+        "CHILDREN": [
+          "Vila",
+          "Chika"
+        ],
+        "SPOUSE": [
+          "Lika"
+        ]
+      }
+    },
+    "Lika": {
+      "name": "Lika",
+      "gender": "FEMALE",
+      "relations": {
+        "CHILDREN": [
+          "Vila",
+          "Chika"
+        ],
+        "SPOUSE": [
+          "Vich"
+        ]
+      }
+    },
+    "Vila": {
+      "name": "Vila",
+      "gender": "FEMALE",
+      "relations": {
+        "PARENT": [
+          "Lika",
+          "Vich"
+        ],
+        "SIBLING": [
+          "Chika"
+        ]
+      }
+    },
+    "Chika": {
+      "name": "Chika",
+      "gender": "FEMALE",
+      "relations": {
+        "PARENT": [
+          "Lika",
+          "Vich"
+        ],
+        "SIBLING": [
+          "Vila"
+        ]
+      }
+    },
+    "Aras": {
+      "name": "Aras",
+      "gender": "MALE",
+      "relations": {
+        "PARENT": [
+          "King Shah",
+          "Queen Ange"
+        ],
+        "SIBLING": [
+          "Chit",
+          "Ish",
+          "Vich",
+          "Satya"
+        ],
+        "CHILDREN": [
+          "Ahit",
+          "Jnki"
+        ],
+        "SPOUSE": [
+          "Chitra"
+        ]
+      }
+    },
+    "Chitra": {
+      "name": "Chitra",
+      "gender": "FEMALE",
+      "relations": {
+        "CHILDREN": [
+          "Ahit",
+          "Jnki"
+        ],
+        "SPOUSE": [
+          "Aras"
+        ]
+      }
+    },
+    "Ahit": {
+      "name": "Ahit",
+      "gender": "MALE",
+      "relations": {
+        "PARENT": [
+          "Chitra",
+          "Aras"
+        ],
+        "SIBLING": [
+          "Jnki"
+        ]
+      }
+    },
+    "Jnki": {
+      "name": "Jnki",
+      "gender": "FEMALE",
+      "relations": {
+        "CHILDREN": [
+          "Laki",
+          "Lavnya"
+        ],
+        "PARENT": [
+          "Chitra",
+          "Aras"
+        ],
+        "SIBLING": [
+          "Ahit"
+        ],
+        "SPOUSE": [
+          "Arit"
+        ]
+      }
+    },
+    "Arit": {
+      "name": "Arit",
+      "gender": "MALE",
+      "relations": {
+        "CHILDREN": [
+          "Laki",
+          "Lavnya"
+        ],
+        "SPOUSE": [
+          "Jnki"
+        ]
+      }
+    },
+    "Laki": {
+      "name": "Laki",
+      "gender": "MALE",
+      "relations": {
+        "PARENT": [
+          "Arit",
+          "Jnki"
+        ],
+        "SIBLING": [
+          "Lavnya"
+        ]
+      }
+    },
+    "Lavnya": {
+      "name": "Lavnya",
+      "gender": "FEMALE",
+      "relations": {
+        "PARENT": [
+          "Arit",
+          "Jnki"
+        ],
+        "SIBLING": [
+          "Laki"
+        ]
+      }
+    },
+    "Satya": {
+      "name": "Satya",
+      "gender": "FEMALE",
+      "relations": {
+        "PARENT": [
+          "King Shah",
+          "Queen Ange"
+        ],
+        "SIBLING": [
+          "Chit",
+          "Ish",
+          "Vich",
+          "Aras"
+        ],
+        "CHILDREN": [
+          "Vyas",
+          "Asva",
+          "Atya"
+        ],
+        "SPOUSE": [
+          "Vyan"
+        ]
+      }
+    },
+    "Vyan": {
+      "name": "Vyan",
+      "gender": "MALE",
+      "relations": {
+        "CHILDREN": [
+          "Vyas",
+          "Asva",
+          "Atya"
+        ],
+        "SPOUSE": [
+          "Satya"
+        ]
+      }
+    },
+    "Vyas": {
+      "name": "Vyas",
+      "gender": "MALE",
+      "relations": {
+        "SIBLING": [
+          "Asva",
+          "Atya"
+        ],
+        "CHILDREN": [
+          "Kriya",
+          "Krithi"
+        ],
+        "SPOUSE": [
+          "Krpi"
+        ],
+        "PARENT": [
+          "Satya",
+          "Vyan"
+        ]
+      }
+    },
+    "Krpi": {
+      "name": "Krpi",
+      "gender": "FEMALE",
+      "relations": {
+        "CHILDREN": [
+          "Kriya",
+          "Krithi"
+        ],
+        "SPOUSE": [
+          "Vyas"
+        ]
+      }
+    },
+    "Kriya": {
+      "name": "Kriya",
+      "gender": "MALE",
+      "relations": {
+        "SIBLING": [
+          "Krithi"
+        ],
+        "PARENT": [
+          "Vyas",
+          "Kriya"
+        ]
+      }
+    },
+    "Krithi": {
+      "name": "Krithi",
+      "gender": "FEMALE",
+      "relations": {
+        "SIBLING": [
+          "Kriya"
+        ],
+        "PARENT": [
+          "Vyas",
+          "Kriya"
+        ]
+      }
+    },
+    "Atya": {
+      "name": "Atya",
+      "gender": "FEMALE",
+      "relations": {
+        "SIBLING": [
+          "Asva",
+          "Vyas"
+        ],
+        "PARENT": [
+          "Satya",
+          "Vyan"
+        ]
+      }
+    },
+    "Asva": {
+      "name": "Asva",
+      "gender": "MALE",
+      "relations": {
+        "SIBLING": [
+          "Vyas",
+          "Atya"
+        ],
+        "CHILDREN": [
+          "Vasa"
+        ],
+        "SPOUSE": [
+          "Satvy"
+        ],
+        "PARENT": [
+          "Satya",
+          "Vyan"
+        ]
+      }
+    },
+    "Satvy": {
+      "name": "Satvy",
+      "gender": "FEMALE",
+      "relations": {
+        "CHILDREN": [
+          "Vasa"
+        ],
+        "SPOUSE": [
+          "Asva"
+        ]
+      }
+    },
+    "Vasa": {
+      "name": "Vasa",
+      "gender": "MALE",
+      "relations": {
+        "PARENT": [
+          "Satvy",
+          "Asva"
+        ]
+      }
+    },
+    "Dritha": {
+      "name": "Dritha",
+      "gender": "FEMALE",
+      "relations": {
+        "SPOUSE": [
+          "Jaya"
+        ],
+        "CHILDREN": [
+          "Yodhan"
+        ],"PARENT": [
+          "Chit",
+          "Amba"
+        ]
+      }
+    },
+    "Jaya": {
+      "name": "Jaya",
+      "gender": "MALE",
+      "relations": {
+        "SPOUSE": [
+          "Dritha"
+        ],
+        "CHILDREN": [
+          "Yodhan"
+        ],
+        "SIBLING": [
+          "Tritha",
+          "Vritha"
+        ]
+      }
+    },
+    "Tritha": {
+      "name": "Tritha",
+      "gender": "FEMALE",
+      "relations": {
+        "PARENT": [
+          "Chit",
+          "Amba"
+        ],
+        "SIBLING": [
+          "Dritha",
+          "Vritha"
+        ]
+      }
+    },
+    "Vritha": {
+      "name": "Vritha",
+      "gender": "MALE",
+      "relations": {
+        "SIBLING": [
+          "Dritha",
+          "Tritha"
+        ]
+      }
+    },
+    "Yodhan": {
+      "name": "Yodhan",
+      "gender": "MALE",
+      "relations": {
+        "PARENT": [
+          "Dritha",
+          "JATA"
+        ]
+      }
+    }
+  }
+}
